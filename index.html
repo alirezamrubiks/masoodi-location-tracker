@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa-ir">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سرویس موقعیت‌یابی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📍 سرویس موقعیت‌یابی</h1>
+        <p>برای استفاده از این سرویس، لطفاً اجازه دسترسی به موقعیت جغرافیایی خود را دهید</p>
+        
+        <button onclick="getLocation()">اجازه دسترسی به موقعیت</button>
+        
+        <div id="status">در انتظار اجازه...</div>
+        
+        <div id="coordinates" class="coordinates">
+            <h3>مختصات جغرافیایی شما:</h3>
+            <p id="lat">عرض جغرافیایی: -</p>
+            <p id="lng">طول جغرافیایی: -</p>
+            <p id="accuracy">دقت: - متر</p>
+        </div>
+
+        <div id="mapLink">
+            <h3>📍 مشاهده موقعیت روی نقشه:</h3>
+            <a id="googleMapLink" target="_blank">باز کردن در Google Maps</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
