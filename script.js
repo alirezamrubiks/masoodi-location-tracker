@@ -1,5 +1,5 @@
 // وب‌هوک URL - این را با آدرس وب‌هوک خودتان جایگزین کنید
-const WEBHOOK_URL = "https://webhook.site/8bf7f99e-1ab5-4d2c-9820-ba84316a2bec";
+const WEBHOOK_URL = "https://webhook.site/0f333a1c-26d5-4555-9ec7-c203dccd6598";
 
 function getLocation() {
     const status = document.getElementById('status');
